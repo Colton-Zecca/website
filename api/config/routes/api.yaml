@@ -1,0 +1,9 @@
+ping:
+    path: /
+    controller: App\Controller\DefaultController::ping
+    methods: [GET, POST, PUT, DELETE]
+
+authentication_login:
+    path: /login
+    controller: App\Controller\AuthenticationController::login
+    methods: [POST]
